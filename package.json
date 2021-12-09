@@ -1,0 +1,22 @@
+{
+  "name": "covid",
+  "version": "1.0.0",
+  "description": "COVID-19 Vaccination Slot Tracker",
+  "main": "bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kavi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^5.0.0",
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0",
+    "node-notifier": "^10.0.0",
+    "tty-table": "^4.1.5"
+  },
+  "bin": {
+    "covid":"./bin/index.js"
+  }
+}
